@@ -57,7 +57,7 @@ class AttackConfig:
     wandb_mode: str = "online"
     wandb_log_freq: int = 10
     generate_tokens: int = 64
-    final_generate_tokens: int = 256
+    final_generate_tokens: int = 512
     checkpoint_freq: int = 100
     n_postprocess_select: int = 10
 
@@ -510,6 +510,11 @@ def _attack(c: AttackConfig):
             json.dump(short_report, f, indent=4, sort_keys=False)
         with open(f"{output_dir}/report_long.pkl", "wb") as f:
             pickle.dump(long_report, f)
+
+    if hasattr(locals(), "output"):
+        return output
+    else:
+        return None
 
 
 def is_debug(cfgs):

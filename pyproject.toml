@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "flrt"
 version = "0.0.1"
-description = "Fluent redteaming!"
+description = "Fluent student-teacher redteaming"
 license = "MIT"
 authors = ["Confirm Labs <ben.thompson@confirmsol.org>"]
 maintainers = []

@@ -47,7 +47,7 @@ model_configs = {
     ),
     "llama-3": ModelConfig(
         model_name="meta-llama/Meta-Llama-3-8B-Instruct",
-        peft_path=f"Meta-Llama-3-8B-Instruct-{ft_datetime}",
+        peft_path="earlysoft-Meta-Llama-3-8B-Instruct-240722_214056",
         response_template="<|start_header_id|>assistant<|end_header_id|>\n\n",
         first_token="Here",
         system_prompt=None,
