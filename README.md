@@ -1,6 +1,6 @@
 # Fluent dreaming for language models.
 
-The code here implements the discrete prompt optimization algorithms in the paper ["Fluent student-teacher redteaming"](https://confirmlabs.org/papers/flrt.pdf).
+The code here implements the discrete prompt optimization algorithms in the paper ["Fluent student-teacher redteaming"](https://arxiv.org/abs/2407.17447).
 
 [Please also see the companion page that demonstrates using the code here.](https://confirmlabs.org/posts/flrt.html)
 
